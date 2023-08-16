@@ -3,15 +3,17 @@ using namespace std;
 
 int main()
 {
-    for(int i = 1 ; i < 3 ; i++)
+	int n;
+	cout<<"enter";
+	cin>>n;
+    for(int i = 1 ; i < n ; i++)
     {
-        int j = 1;
-        while(j<3)
-        {
-            cout << i << ' ' << j << '\n';
-            j++;
-        }
-        cout << "boi\n";
+    	for (int x=1;x<=10;x++)
+    	{
+    		cout<<(x*i)<<" ";
+		}
+		
+		cout<<"\n";
     }
     return 0;
 }
